@@ -39,7 +39,7 @@ songs = {
 messages = {
     "happy": "Happy mood , this song just to keep the good vibes going ",
     "sad": "Feeling sad!! It's ok here's the song just for you ",
-    "angry":" Angry , Let this song sream with you",
+    "angry":" Angry , Let this song scream with you",
     "chill":"Just chill with this song",
     "love":"This one's is just handpicked for you",
     "inspirational":"Woah!! Need a inspo boost? This song just for u"
