@@ -36,13 +36,22 @@ songs = {
     ]
 }
 
+messages = {
+    "happy": "Happy mood , this song just to keep the good vibes going ",
+    "sad": "Feeling sad!! It's ok here's the song just for you ",
+    "angry":" Angry , Let this song sream with you",
+    "chill":"Just chill with this song",
+    "love":"This one's is just handpicked for you",
+    "inspirational":"Woah!! Need a inspo boost? This song just for u"
+}
 print(" Mood-Based Song Recommender ")
 print("Pick your mood ")
 print("Moods: happy, sad, angry, chill, inspirational, love")
 mood = input("How are you feeling today ? ").lower()
 
 if mood in songs:
-    print("\nHere’s a song for your vibe today:")
+    print("\n" + messages[mood])
     print(random.choice(songs[mood]))
 else:
     print("No songs based on that mood  Try: happy, sad, angry, chill, inspirational, or love ")
+
